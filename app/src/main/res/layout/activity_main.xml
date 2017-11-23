@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a12406.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#18AC16"
+        android:onClick="onButtonClicked"
+        android:layout_margin="16dp"
+        android:text="按钮1" />
+
+    <Button
+        android:id="@+id/id_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮2" />
+
+    <TextView
+        android:id="@+id/id_text_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="马应鑫"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED"
+        android:text="Android"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+</LinearLayout>
